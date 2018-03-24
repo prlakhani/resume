@@ -1,0 +1,162 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Trey Hunner (http://www.treyhunner.com/)
+%
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%-------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%-------------------------------------------------------------------------
+
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage[left=0.65in,top=0.7in,right=0.65in,bottom=0.7in]{geometry} 
+\usepackage{tabu}
+\usepackage{hyperref}
+
+% Document margins
+
+\name{Parth Lakhani} % Your name
+
+\address{(215) 260 - 8279 \\ \href{mailto:parth@prlakhani.com}{parth@prlakhani.com}}
+\address{\url{https://github.com/prlakhani} \\ \url{https://prlakhani.com}}
+\begin{document}
+\bibliographystyle{mynature}
+
+
+%-------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%-------------------------------------------------------------------------
+
+\begin{rSection}{Work Experience}
+\vspace{0.3em}
+\begin{rSubsection}{Yext}{2016 -- 2017}{Data Strategist}{New York, NY}
+\item Working across multiple teams, conducted internal analyses of large customer outcomes datasets to deliver novel insights on best practices, requiring NLP and machine learning techniques.
+\item Architected and developed new process automation tools as notebooks or browser-based interfaces.
+\item Completed major refactor of legacy codebase, including Python 2 to 3 transition.
+\item Advised Engineering and Product teams on data governance and data quality initiatives.
+
+\end{rSubsection}
+
+%------------------------------------------------
+\begin{rSubsection}{Captain401}{2015 -- 2016}{Software Development Intern}{San Francisco, CA}
+\item Built client payroll tracking and parsing infrastructure using NodeJS and React
+\item Prototyped internal operations tool using Python, Flask, and Postgres
+\item Learned collaborative development, secure code testing and deployment best practices as part of an agile engineering/product team
+
+\end{rSubsection}
+
+%------------------------------------------------
+
+\begin{rSubsection}{UC San Francisco/Massachusetts General Hospital}{2013 -- 2015}{Laboratory Solutions Developer/Research Technician II}{San Francisco, CA/Boston, MA}
+\item Independently designed and developed end-to-end ETL and analysis pipeline.
+\item Using Python/Django, built laboratory inventory and chemical inventory database applications.
+\item Built Django-based SQLite animal inventory and facility management system, using Raspberry Pi for connection to monitoring hardware and hosting on internal network with nginx and gunicorn.
+\item Designed novel assays for custom MATLAB and Arduino-based rapid behavioral phenotyping platform.
+\item Used CRISPR in zebrafish models to study various pathways in behavior and neurodegeneration.
+\item Results published in {\em Nature Chemical Biology} and {\em Frontiers in Pharmacology}.
+\end{rSubsection}
+
+%------------------------------------------------
+
+\begin{rSubsection}{Mount Sinai School of Medicine, Department of Nephrology}{2010 -- 2013}{Associate Researcher}{New York, NY}
+\item Managed team of 3 technicians to run multi-facility mouse colony of 1000+ mice.
+\item Studied autoimmunity/alloimmunity connection, including publishing independent research project.
+\item Results published in {\em Transplantation} and {\em American Journal of Transplantation}.
+
+\end{rSubsection}
+
+%------------------------------------------------
+
+\end{rSection}
+
+%-------------------------------------------------
+
+%-------------------------------------------------------------------------
+%	COMPUTER SKILLS SECTION
+%-------------------------------------------------------------------------
+
+\begin{rSection}{Skills}
+\vspace{0.3em}
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{2.6ex}} p{85ex} }
+Languages & Python, SQL, JavaScript, MATLAB, \texttt{bash} scripting, \LaTeX, R
+\vspace{0.4em}\\
+Technologies & pandas, Flask/Django, PostgreSQL/MySQL, scikit-learn, git,  NodeJS, Heroku
+\end{tabular}
+
+\end{rSection}
+
+%-------------------------------------------------------------------------
+%	EDUCATION SECTION
+%-------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+\vspace{0.3em}
+
+{\bf DataCamp/Udacity/Coursera, }{\em Independent study} \hfill 2015 -- Present \\ 
+{\em Coursework in}: data analysis, statistics, data visualization, web development
+
+{\bf Swarthmore College, }{\em B.A., Biology } \hfill 2006 -- 2010 \\
+{\em Relevant coursework}: Algorithmic Problem Solving, Data Analysis and Visualization, Privacy and Security
+\end{rSection}
+
+
+
+%\begin{rSection}{Projects}
+%\vspace{0.4em}
+%\begin{list}{$\diamond$}{\leftmargin=1em}
+%\itemsep -0.5em
+%\item \textbf{Phenotype database} \textit{(UCSF)}: Wrote \textbf{Python} scripts to process \textbf{MATLAB}-generated data to load into \textbf{Heroku}-hosted \textbf{PostgreSQL} database, and built \textbf{Django} application with \textbf{Bootstrap} front-end to access data and perform routine analyses using server-side \textbf{Python} code.
+%\item \href{https://github.com/prlakhani/udacity_swissTournament}{\textbf{Swiss-style tournament database}} \textit{(Udacity)}: Designed a \textbf{Postgres} database to record and manage players, matches, and tournaments, and wrote \textbf{Python} wrapper functions for \textbf{CRUD} \textbf{SQL} queries.
+%\item \textbf{Publication: Effects of preexisting autoimmunity on heart graft prolongation after donor-specific transfusion and anti-CD154} \textit{(Mount Sinai)}: Independent research project
+
+%\end{list}
+%\end{rSection}
+
+
+%-------------------------------------------------------------------------
+%	EXTRAS SECTION
+%-------------------------------------------------------------------------
+
+%\begin{rSection}{Activities and Interests}
+%\vspace{0.3em}
+%Avid cyclist, homebrewer
+%\end{rSection}
+
+%-------------------------------------------------------------------------
+%	LANGUAGES SECTION
+%-------------------------------------------------------------------------
+
+%\begin{rSection}{Languages}
+%\vspace{0.3em}
+%\begin{tabular}{ @{} >{\bfseries}l @{\hspace{1.5ex}} p{85ex} }
+%Native & English (US) \\
+%Proficient & Gujarati, Hindi \\
+%Conversational & Spanish \\
+%\end{tabular}
+%
+%\end{rSection}
+
+
+%-------------------------------------------------------------------------
+%	EXAMPLE SECTION
+%-------------------------------------------------------------------------
+
+%\begin{rSection}{Section Name}
+
+%Section content\ldots
+
+%\end{rSection}
+
+%-------------------------------------------------------------------------
+
+
+\end{document}
