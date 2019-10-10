@@ -1,11 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2017.10.25)  31 MAR 2018 12:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2019.1.20)  10 OCT 2019 11:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **LakhaniResume.tex
 (./LakhaniResume.tex
-LaTeX2e <2017-04-15>
-Babel <3.12> and hyphenation patterns for 5 language(s) loaded.
+LaTeX2e <2018-04-01> patch level 5
 (./resume.cls
 Document Class: resume 2010/07/10 v0.9 Resume class
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
@@ -13,14 +12,14 @@ Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
 (/usr/share/texlive/texmf-dist/tex/latex/base/size11.clo
 File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
-\c@part=\count79
-\c@section=\count80
-\c@subsection=\count81
-\c@subsubsection=\count82
-\c@paragraph=\count83
-\c@subparagraph=\count84
-\c@figure=\count85
-\c@table=\count86
+\c@part=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
@@ -29,18 +28,20 @@ File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 Package: parskip 2001/04/09 non-zero parskip adjustments
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
-Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
+Package: array 2018/04/30 v2.4h Tabular extension package (FMi)
 \col@sep=\dimen103
+\ar@mcellbox=\box26
 \extrarowheight=\dimen104
 \NC@list=\toks14
 \extratabsurround=\skip43
 \backup@length=\skip44
+\ar@cellbox=\box27
 )
 (/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
-Package: geometry 2010/09/12 v5.6 Page Geometry
+Package: geometry 2018/04/16 v5.8 Page Geometry
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
@@ -56,9 +57,9 @@ Package ifvtex Info: VTeX not detected.
 (/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-\Gm@cnth=\count87
-\Gm@cntv=\count88
-\c@Gm@tempcnt=\count89
+\Gm@cnth=\count88
+\Gm@cntv=\count89
+\c@Gm@tempcnt=\count90
 \Gm@bindingoffset=\dimen105
 \Gm@wd@mp=\dimen106
 \Gm@odd@mp=\dimen107
@@ -74,17 +75,17 @@ Package: tabu 2011/02/26 v2.8 - flexible LaTeX tabulars (FC)
 
 (/usr/share/texlive/texmf-dist/tex/latex/varwidth/varwidth.sty
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
-\@vwid@box=\box26
-\sift@deathcycles=\count90
+\@vwid@box=\box28
+\sift@deathcycles=\count91
 \@vwid@loff=\dimen113
 \@vwid@roff=\dimen114
 )
-\c@taburow=\count91
-\tabu@nbcols=\count92
-\tabu@cnt=\count93
-\tabu@Xcol=\count94
-\tabu@alloc=\count95
-\tabu@nested=\count96
+\c@taburow=\count92
+\tabu@nbcols=\count93
+\tabu@cnt=\count94
+\tabu@Xcol=\count95
+\tabu@alloc=\count96
+\tabu@nested=\count97
 \tabu@target=\dimen115
 \tabu@spreadtarget=\dimen116
 \tabu@naturalX=\dimen117
@@ -96,14 +97,14 @@ Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \tabustrutrule=\dimen123
 \tabu@thebody=\toks17
 \tabu@footnotes=\toks18
-\tabu@box=\box27
-\tabu@arstrutbox=\box28
-\tabu@hleads=\box29
-\tabu@vleads=\box30
+\tabu@box=\box29
+\tabu@arstrutbox=\box30
+\tabu@hleads=\box31
+\tabu@vleads=\box32
 \tabu@cellskip=\skip45
 )
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2017/03/14 v6.85a Hypertext links for LaTeX
+Package: hyperref 2018/02/06 v6.86b Hypertext links for LaTeX
 
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
 Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
@@ -120,13 +121,9 @@ Package hobsub Info: Skipping package `ifvtex' (already loaded).
 Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
 Package hobsub Info: Skipping package `ifpdf' (already loaded).
 Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
-Package etexcmds Info: Could not find \expanded.
-(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
-(etexcmds)             that some package has redefined \expanded.
-(etexcmds)             In the latter case, load this package earlier.
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
+Package: pdftexcmds 2018/01/30 v0.27 Utility functions of pdfTeX for LuaTeX (HO
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
@@ -159,55 +156,56 @@ Package auxhook Warning: Cannot patch \document,
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
 \@linkdim=\dimen124
-\Hy@linkcounter=\count97
-\Hy@pagecounter=\count98
+\Hy@linkcounter=\count98
+\Hy@pagecounter=\count99
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2017/03/14 v6.85a Hyperref: PDFDocEncoding definition (HO)
+File: pd1enc.def 2018/02/06 v6.86b Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
 )
-\Hy@SavedSpaceFactor=\count99
+\Hy@SavedSpaceFactor=\count100
 
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
-Package hyperref Info: Hyper figures OFF on input line 4498.
-Package hyperref Info: Link nesting OFF on input line 4503.
-Package hyperref Info: Hyper index ON on input line 4506.
-Package hyperref Info: Plain pages OFF on input line 4513.
-Package hyperref Info: Backreferencing OFF on input line 4518.
+Package hyperref Info: Hyper figures OFF on input line 4509.
+Package hyperref Info: Link nesting OFF on input line 4514.
+Package hyperref Info: Hyper index ON on input line 4517.
+Package hyperref Info: Plain pages OFF on input line 4524.
+Package hyperref Info: Backreferencing OFF on input line 4529.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4751.
-\c@Hy@tempcnt=\count100
+Package hyperref Info: Bookmarks ON on input line 4762.
+\c@Hy@tempcnt=\count101
 
 (/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 5104.
+LaTeX Info: Redefining \url on input line 5115.
 \XeTeXLinkMargin=\dimen125
-\Fld@menulength=\count101
+\Fld@menulength=\count102
 \Field@Width=\dimen126
 \Fld@charsize=\dimen127
-Package hyperref Info: Hyper figures OFF on input line 6358.
-Package hyperref Info: Link nesting OFF on input line 6363.
-Package hyperref Info: Hyper index ON on input line 6366.
-Package hyperref Info: backreferencing OFF on input line 6373.
-Package hyperref Info: Link coloring OFF on input line 6378.
-Package hyperref Info: Link coloring with OCG OFF on input line 6383.
-Package hyperref Info: PDF/A mode OFF on input line 6388.
-LaTeX Info: Redefining \ref on input line 6428.
-LaTeX Info: Redefining \pageref on input line 6432.
-\Hy@abspage=\count102
-\c@Item=\count103
-\c@Hfootnote=\count104
+Package hyperref Info: Hyper figures OFF on input line 6369.
+Package hyperref Info: Link nesting OFF on input line 6374.
+Package hyperref Info: Hyper index ON on input line 6377.
+Package hyperref Info: backreferencing OFF on input line 6384.
+Package hyperref Info: Link coloring OFF on input line 6389.
+Package hyperref Info: Link coloring with OCG OFF on input line 6394.
+Package hyperref Info: PDF/A mode OFF on input line 6399.
+LaTeX Info: Redefining \ref on input line 6439.
+LaTeX Info: Redefining \pageref on input line 6443.
+\Hy@abspage=\count103
+\c@Item=\count104
+\c@Hfootnote=\count105
 )
-
-Package hyperref Message: Driver (autodetected): hpdftex.
+Package hyperref Info: Driver (autodetected): hpdftex.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
-File: hpdftex.def 2017/03/14 v6.85a Hyperref driver for pdfTeX
-\Fld@listcount=\count105
-\c@bookmark@seq@number=\count106
+File: hpdftex.def 2018/02/06 v6.86b Hyperref driver for pdfTeX
+\Fld@listcount=\count106
+\c@bookmark@seq@number=\count107
 
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
@@ -268,7 +266,7 @@ LaTeX Font Info:    ... okay on input line 31.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\AtBeginShipoutBox=\box31
+\AtBeginShipoutBox=\box33
 Package hyperref Info: Link coloring OFF on input line 31.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -276,7 +274,7 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count107
+\c@section@level=\count108
 )
 LaTeX Info: Redefining \ref on input line 31.
 LaTeX Info: Redefining \pageref on input line 31.
@@ -297,23 +295,29 @@ Overfull \hbox (30.0pt too wide) in paragraph at lines 31--31
 [] 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 162.
+
+Overfull \hbox (2.3054pt too wide) in paragraph at lines 65--66
+[]\OT1/cmr/m/n/10.95 Built mul-ti-ple lab-o-ra-tory in-ven-tory and mon-i-tor-i
+ng ap-pli-ca-tions with PaaS/on-premise host-ing as needed. 
+ []
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 165.
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 162.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 165.
  (./LakhaniResume.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 162.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 162.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 165.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 165.
 Package rerunfilecheck Info: File `LakhaniResume.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 162.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 165.
  ) 
 Here is how much of TeX's memory you used:
- 5514 strings out of 494888
- 82032 string characters out of 6179709
- 172485 words of memory out of 5000000
- 8820 multiletter control sequences out of 15000+600000
+ 5504 strings out of 494543
+ 81793 string characters out of 6176661
+ 180097 words of memory out of 5000000
+ 9139 multiletter control sequences out of 15000+600000
  7807 words of font info for 28 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  29i,11n,23p,365b,315s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -324,7 +328,7 @@ ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf
 -dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/
 fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on LakhaniResume.pdf (1 page, 96731 bytes).
+Output written on LakhaniResume.pdf (1 page, 97491 bytes).
 PDF statistics:
  44 PDF objects out of 1000 (max. 8388607)
  33 compressed objects within 1 object stream
