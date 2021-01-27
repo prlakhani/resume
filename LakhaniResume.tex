@@ -18,8 +18,8 @@
 
 \documentclass{resume} % Use the custom resume.cls style
 
-\usepackage[left=0.65in,top=0.7in,right=0.65in,bottom=0.7in]{geometry} 
-\usepackage{tabu}
+\usepackage[left=0.6in,top=0.5in,right=0.6in,bottom=0.5in]{geometry} 
+%\usepackage{tabu}
 \usepackage{hyperref}
 
 % Document margins
@@ -27,9 +27,8 @@
 \name{Parth Lakhani} % Your name
 
 \address{(215) 260 - 8279 \\ \href{mailto:parth@prlakhani.com}{parth@prlakhani.com}}
-\address{\url{https://github.com/prlakhani} \\ \url{https://www.linkedin.com/in/prlakhani}}
+\address{\url{https://www.linkedin.com/in/prlakhani} \\ \url{https://github.com/prlakhani}}
 \begin{document}
-\bibliographystyle{mynature}
 
 
 %-------------------------------------------------------------------------
@@ -37,8 +36,13 @@
 %-------------------------------------------------------------------------
 
 \begin{rSection}{Work Experience}
-\begin{rSubsection}{Komodo Health}{2018 -- 2020}{Data Scientist/Healthcare Analytics Engineer}{Remote/New York, NY}
-\item Built data insights team and processes from scratch as first team hire.
+\begin{rSubsection}{Kelsey-Seybold Clinic}{2020 -- Present}{Healthcare Informatics Analyst}{Houston, TX}
+\item Use Epic EHR and claims data within SQL Server with Python and PowerBI to inform internal process improvement and decision support initiatives.
+
+\end{rSubsection}
+%------------------------------------------------
+\begin{rSubsection}{Komodo Health}{2018 -- 2020}{Data Scientist/Healthcare Analytics Engineer}{Houston, TX/New York, NY}
+\item Built data insights team and processes from scratch as first team hire, employing PySpark and Kubernetes.
 \item Acted as subject matter expert liaison between client-facing teams and insights team.
 \item Used medical/pharmacy claims and lab test data to execute client-facing healthcare analytics projects.
 
@@ -55,7 +59,6 @@
 \begin{rSubsection}{Captain401}{2015 -- 2016}{Software Developer}{San Francisco, CA}
 \item Built client payroll tracking and parsing infrastructure using NodeJS and React
 \item Prototyped internal operations tool using Python, Flask, and Postgres
-
 \end{rSubsection}
 
 %------------------------------------------------
@@ -64,8 +67,6 @@
 \item Independently designed and developed end-to-end ETL and analysis pipeline.
 \item Built multiple laboratory inventory and monitoring applications with PaaS/on-premise hosting as needed.
 \item Designed novel assays for custom MATLAB and Arduino-based rapid behavioral phenotyping platform.
-\item Used CRISPR in zebrafish models to study various pathways in behavior and neurodegeneration.
-\item Results published in {\em Nature Chemical Biology} and {\em Frontiers in Pharmacology}.
 \end{rSubsection}
 
 %------------------------------------------------
@@ -73,8 +74,6 @@
 \begin{rSubsection}{Mount Sinai School of Medicine, Department of Nephrology}{2010 -- 2013}{Associate Researcher}{New York, NY}
 \item Managed team of 3 technicians to run multi-facility mouse colony of 1000+ mice.
 \item Studied autoimmunity/alloimmunity connection, including publishing independent research project.
-\item Results published in {\em Transplantation} and {\em American Journal of Transplantation}.
-
 \end{rSubsection}
 
 %------------------------------------------------
@@ -90,9 +89,9 @@
 \begin{rSection}{Skills}
 \vspace{0.3em}
 \begin{tabular}{ @{} >{\bfseries}l @{\hspace{2.6ex}} p{85ex} }
-Languages & Python, SQL, JavaScript, MATLAB, \texttt{bash} scripting, \LaTeX, R
+Languages & Python, SQL, JavaScript, MATLAB, \texttt{bash} scripting, \LaTeX, R, Go
 \vspace{0.4em}\\
-Technologies & pandas, PySpark, Kubernetes, AWS, Snowflake, scikit-learn, Flask/Django, PostgreSQL/MySQL, Tableau, git, NodeJS, Heroku
+Technologies & pandas, PySpark, Kubernetes, AWS, Snowflake, scikit-learn, Flask/Django, PostgreSQL/MySQL/SQL Server, PowerBI, Tableau, git, NodeJS, D3, Heroku
 \end{tabular}
 
 \end{rSection}
